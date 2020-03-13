@@ -1,0 +1,2 @@
+2019-08-30T13:26:24+00:00 CRITICAL syntax error, unexpected 'wp_enqueue_style' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /var/www/vhosts/gerasko.dv.ancorathemes.com/ureach.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/importer/class.importer.php on line 56
+

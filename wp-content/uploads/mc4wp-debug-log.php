@@ -1,0 +1,10 @@
+<?php exit; ?>
+[2019-09-05 11:41:33] ERROR: Form 403 > Mailchimp API error: 400 Bad Request. Invalid Resource. test@te**.com looks fake or invalid, please enter a real email address.
+Request: PUT https://us16.api.mailchimp.com/3.0/lists/1afd7dff6b/members/b642b4217b34b1e8d3bd915fc65c4452 - {"email_address":"test@te**.com","interests":{},"merge_fields":{},"status":"pending","email_type":"html","ip_signup":"176.115.100.19","tags":[]}
+Response: 400 Bad Request - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Invalid Resource","status":400,"detail":"test@te**.com looks fake or invalid, please enter a real email address.","instance":"4aaa2c8b-9462-4bf2-86f5-a833a2f986d6"}
+[2019-09-05 11:41:50] ERROR: Form 403 > Mailchimp API error: 400 Bad Request. Invalid Resource. test@te**.com looks fake or invalid, please enter a real email address.
+Request: PUT https://us16.api.mailchimp.com/3.0/lists/1afd7dff6b/members/b642b4217b34b1e8d3bd915fc65c4452 - {"email_address":"test@te**.com","interests":{},"merge_fields":{},"status":"pending","email_type":"html","ip_signup":"176.115.100.19","tags":[]}
+Response: 400 Bad Request - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Invalid Resource","status":400,"detail":"test@te**.com looks fake or invalid, please enter a real email address.","instance":"4e188848-7503-4f04-a85f-a240123bf23a"}
+[2019-09-05 11:42:08] ERROR: Form 403 > Mailchimp API error: 400 Bad Request. Invalid Resource. test@te**.com looks fake or invalid, please enter a real email address.
+Request: PUT https://us16.api.mailchimp.com/3.0/lists/1afd7dff6b/members/b642b4217b34b1e8d3bd915fc65c4452 - {"email_address":"test@te**.com","interests":{},"merge_fields":{},"status":"pending","email_type":"html","ip_signup":"176.115.100.19","tags":[]}
+Response: 400 Bad Request - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Invalid Resource","status":400,"detail":"test@te**.com looks fake or invalid, please enter a real email address.","instance":"3b235fb3-c8a3-44e7-a2b1-628074721dde"}
