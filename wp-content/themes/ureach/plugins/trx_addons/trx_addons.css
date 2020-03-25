@@ -814,7 +814,7 @@ h2.sc_item_title.sc_item_title_style_default:not(.sc_item_title_tag) {
 }
 .sc_blogger_classic .sc_blogger_item .sc_blogger_item_excerpt_text {
 	line-height:1.6em;
-	max-height: 5em;
+	max-height: 300px;
 }
 .sc_blogger_classic .sc_blogger_item .sc_blogger_item_excerpt_text p {
 	margin:0;

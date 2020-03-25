@@ -18,6 +18,7 @@ if ( ureach_need_page_title() ) {
 			<div class="sc_layouts_column sc_layouts_column_align_center">
 				<div class="sc_layouts_item">
 					<div class="sc_layouts_title sc_align_center">
+					<?php if(false): ?>
 						<?php
 						// Post meta on the single post
 						if ( is_single() )  {
@@ -31,8 +32,11 @@ if ( ureach_need_page_title() ) {
 							?></div><?php
 						}
 						
-						// Blog/Post title
-						?><div class="sc_layouts_title_title"><?php
+						
+						?>
+						<?php endif; ?>
+
+						<div class="sc_layouts_title_title"><?php
 							$ureach_blog_title = ureach_get_blog_title();
 							$ureach_blog_title_text = $ureach_blog_title_class = $ureach_blog_title_link = $ureach_blog_title_link_text = '';
 							if (is_array($ureach_blog_title)) {
@@ -63,9 +67,12 @@ if ( ureach_need_page_title() ) {
 						?></div><?php
 	
 						// Breadcrumbs
-						?><div class="sc_layouts_title_breadcrumbs"><?php
+						?>
+						<?php if(false): ?>
+						<div class="sc_layouts_title_breadcrumbs"><?php
 							do_action( 'ureach_action_breadcrumbs');
 						?></div>
+<?php endif; ?>
 					</div>
 				</div>
 			</div>

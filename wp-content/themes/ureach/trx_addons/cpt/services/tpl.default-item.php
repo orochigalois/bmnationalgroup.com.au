@@ -79,7 +79,7 @@ if ($args['slider']) {
 		</div>
 		<?php if (!isset($args['hide_excerpt']) || $args['hide_excerpt']==0) { ?>
 			<div class="sc_services_item_content"><?php the_excerpt(); ?></div>
-			<div class="sc_services_item_button sc_item_button"><a href="<?php echo esc_url($link); ?>" class="sc_button"><?php esc_html_e('Read more', 'ureach'); ?></a></div>
+			<div class="sc_services_item_button sc_item_button"><a href="<?php echo esc_url($link); ?>" class="sc_button">了解更多</a></div>
 		<?php } ?>
 	</div>
 </div>
